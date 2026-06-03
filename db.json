@@ -1,0 +1,22 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "title": "A title",
+      "content": "Bla Bla Bla",
+      "created_at": "01/06/2026"
+    },
+    {
+      "id": "LB2zt2eBX24",
+      "title": "A new title",
+      "content": "some content",
+      "created_at": "02/06/2026"
+    },
+    {
+      "id": "h716SUywcJo",
+      "title": "A very origial title",
+      "content": "some very original content",
+      "created_at": "03/06/2026"
+    }
+  ]
+}
