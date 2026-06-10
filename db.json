@@ -17,6 +17,19 @@
       "title": "A very origial title",
       "content": "some very original content",
       "created_at": "03/06/2026"
+    },
+    {
+      "title": "Note from Create Page",
+      "content": "Some content to fill the area.",
+      "created_at": "10/06/2026",
+      "id": "VfzhIuB907Y"
+    },
+    {
+      "title": "Today's plan",
+      "content": "Go for jogging\nWatch movie\nPay tax",
+      "created_at": "10/06/2026",
+      "id": "FcHn6FS7uIU"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
