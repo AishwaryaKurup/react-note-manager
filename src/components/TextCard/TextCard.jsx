@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Trash } from 'react-bootstrap-icons';
+//import { Trash } from 'react-bootstrap-icons';
+import { Trash2 } from "lucide-react";
 import s from './style.module.css';
 
 export function TextCard({title, subtitle, content, onClick, onClickTrash}){
@@ -22,7 +23,7 @@ export function TextCard({title, subtitle, content, onClick, onClickTrash}){
             <div className="card-body">
                 <div className={s.title_row}>
                 <h5 className="card-title">{title}</h5>
-                <Trash 
+                <Trash2 
                     size={20} 
                     onMouseEnter={()=> setIsTrashHovered(true)} 
                     onMouseLeave={()=> setIsTrashHovered(false)}

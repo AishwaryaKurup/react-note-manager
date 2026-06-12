@@ -1,5 +1,6 @@
 import { ButtonPrimary } from '../ButtonPrimary/ButtonPrimary';
-import { PencilFill, TrashFill } from 'react-bootstrap-icons';
+// import { PencilFill, TrashFill } from 'react-bootstrap-icons';
+import { Pencil, Trash2 } from "lucide-react";
 import s from './style.module.css';
 import { useState } from 'react';
 
@@ -16,10 +17,10 @@ export function NoteForm({title, onClickEdit, onClickDelete, onSubmit}){
     const actionIcons = (
         <>
         <div className='col-1'>
-           {onClickEdit && <PencilFill className={s.icon}/>}
+           {onClickEdit && <Pencil className={s.icon}/>}
         </div>
         <div className='col-1'>
-            {onClickDelete &&  <TrashFill className={s.icon}/>}
+            {onClickDelete &&  <Trash2 className={s.icon}/>}
         </div>
         </>
     );
