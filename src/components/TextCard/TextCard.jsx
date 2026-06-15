@@ -1,5 +1,4 @@
 import { useState } from 'react';
-//import { Trash } from 'react-bootstrap-icons';
 import { Trash2 } from "lucide-react";
 import s from './style.module.css';
 
