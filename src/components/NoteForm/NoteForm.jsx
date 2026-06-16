@@ -16,7 +16,7 @@ const VALIDATOR = {
 
 
 
-export function NoteForm({title, onClickEdit, onClickDelete, onSubmit}){
+export function NoteForm({ isEditable=true, note, title, onClickEdit, onClickDelete, onSubmit}){
     const [formValues,setFormValues] = useState({title:'',content:''});
 
     const [formErrors, setFormErrors] = useState({title:true, content:true});
@@ -45,10 +45,10 @@ export function NoteForm({title, onClickEdit, onClickDelete, onSubmit}){
     const actionIcons = (
         <>
         <div className='col-1'>
-           {onClickEdit && <Pencil className={s.icon}/>}
+           {onClickEdit && <Pencil onClick={onClickEdit} className={s.icon}/>}
         </div>
         <div className='col-1'>
-            {onClickDelete &&  <Trash2 className={s.icon}/>}
+            {onClickDelete &&  <Trash2 onClick={onClickDelete} className={s.icon}/>}
         </div>
         </>
     );
@@ -85,8 +85,8 @@ export function NoteForm({title, onClickEdit, onClickDelete, onSubmit}){
                 {actionIcons}
             </div>
 
-            <div className={`mb-3 ${s.title_input_container}`}>{titleInput}</div>
-            <div className='mb-3'>{contentInput}</div>
+            <div className={`mb-3 ${s.title_input_container}`}>{isEditable && titleInput}</div>
+            <div className='mb-3'>{isEditable ? contentInput : <pre className={s.content_style}>{note.content}</pre>}</div>
             {onSubmit && submitBtn}
         </div>
     );

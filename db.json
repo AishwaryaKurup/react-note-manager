@@ -35,6 +35,18 @@
       "content": "acd",
       "created_at": "15/06/2026",
       "id": "ppZNDKoio4I"
+    },
+    {
+      "title": "Test note",
+      "content": "this is for testing how create funtionality is implemented",
+      "created_at": "16/06/2026",
+      "id": "f9jiolrlBig"
+    },
+    {
+      "title": "Routine",
+      "content": "1. Drink lemon water\n2. Mild exercise\n3. Go for cycling\n4. Eat lunch",
+      "created_at": "16/06/2026",
+      "id": "aKKAsf7A62I"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
