@@ -17,9 +17,9 @@ const VALIDATOR = {
 
 
 export function NoteForm({ isEditable=true, note, title, onClickEdit, onClickDelete, onSubmit}){
-    const [formValues,setFormValues] = useState({title:'',content:''});
+    const [formValues,setFormValues] = useState({title: note?.title,content:note?.content});
 
-    const [formErrors, setFormErrors] = useState({title:true, content:true});
+    const [formErrors, setFormErrors] = useState({title: note?.title ? undefined : true, content: note?.content ? undefined : true});
 
     const updateFormValues = (e) => {
         const name = e.target.name;
@@ -56,7 +56,13 @@ export function NoteForm({ isEditable=true, note, title, onClickEdit, onClickDel
     const titleInput = (
         <div className='mb-5'>
             <label className='form-label'>Title</label>
-            <input onChange={updateFormValues} type='text' name='title' className='form-control'/>
+            <input 
+                onChange={updateFormValues} 
+                type='text' 
+                name='title' 
+                className='form-control'
+                value={formValues.title}
+            />
             <FieldError msg = {formErrors.title}/>
         </div>
         
@@ -65,7 +71,14 @@ export function NoteForm({ isEditable=true, note, title, onClickEdit, onClickDel
     const contentInput = (
         <div className='mb-5'>
             <label className='form-label'>Content</label>
-            <textarea onChange={updateFormValues} type='text' name='content' className='form-control' row='5'/>
+            <textarea 
+                onChange={updateFormValues} 
+                type='text' 
+                name='content' 
+                className='form-control' 
+                row='5'
+                value={formValues.content}
+            />
             <FieldError msg = {formErrors.content}/>
         </div>
     );
