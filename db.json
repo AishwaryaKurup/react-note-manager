@@ -14,8 +14,8 @@
     },
     {
       "id": "h716SUywcJo",
-      "title": "A very origial title",
-      "content": "some very original content",
+      "title": "A poem I like",
+      "content": "Poem line 1\nPoem line 2",
       "created_at": "03/06/2026"
     },
     {
@@ -23,18 +23,6 @@
       "content": "Some content to fill the area.",
       "created_at": "10/06/2026",
       "id": "VfzhIuB907Y"
-    },
-    {
-      "title": "Today's plan",
-      "content": "Go for jogging\nWatch movie\nPay tax",
-      "created_at": "10/06/2026",
-      "id": "FcHn6FS7uIU"
-    },
-    {
-      "title": "abc",
-      "content": "acd",
-      "created_at": "15/06/2026",
-      "id": "ppZNDKoio4I"
     },
     {
       "title": "Test note",
