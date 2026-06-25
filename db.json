@@ -2,45 +2,27 @@
   "notes": [
     {
       "id": "1",
-      "title": "A title",
-      "content": "Bla Bla Bla",
+      "title": "Finding focus",
+      "content": "Taking a few moments to slow down allows the mind to clear and reset. In the middle of a busy day, taking just five minutes to breathe deeply and look away from screens can completely restore your energy. True productivity is not about working constantly, but about finding a sustainable balance between focus and rest.",
       "created_at": "01/06/2026"
-    },
-    {
-      "id": "LB2zt2eBX24",
-      "title": "A new title",
-      "content": "some content",
-      "created_at": "02/06/2026"
     },
     {
       "id": "h716SUywcJo",
       "title": "A poem I like",
-      "content": "Poem line 1\nPoem line 2",
+      "content": "The steepest hills bring grander views,\nWith every path and step you choose.\nThe strength you need is found inside,\nLet courage be your daily guide.",
       "created_at": "03/06/2026"
     },
     {
-      "title": "Note from Create Page",
-      "content": "Some content to fill the area.",
+      "title": "Routine",
+      "content": "1. Wake up and drink a full glass of warm water.\n2. Do 5 minutes of light stretching or jumping jacks.\n3. Make and eat breakfast\n4. Clean house\n5. Learn Dutch",
       "created_at": "10/06/2026",
       "id": "VfzhIuB907Y"
     },
     {
-      "title": "Test note",
-      "content": "this is for testing how create funtionality is implemented",
-      "created_at": "16/06/2026",
-      "id": "f9jiolrlBig"
-    },
-    {
-      "title": "Routine",
-      "content": "1. Drink lemon water\n2. Mild exercise\n3. Go for cycling\n4. Eat lunch",
+      "title": "Today's Task List",
+      "content": "1. Complete 2 lessons in Language course.\n2. Prepare for the upcoming test.\n3. Complete the painting.",
       "created_at": "16/06/2026",
       "id": "aKKAsf7A62I"
-    },
-    {
-      "title": "updated title",
-      "content": "updated content",
-      "created_at": "17/06/2026",
-      "id": "4Wp9-Mf6iEc"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
